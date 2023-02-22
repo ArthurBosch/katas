@@ -49,8 +49,8 @@ const sumLargestNumbersLoopOnly = function (data) {
   return biggest[0] + biggest[1];
 };
 
-// console.log(sumLargestNumbers([1, 10]));
-// console.log(sumLargestNumbers([1, 2, 3]));
+console.log(sumLargestNumbers([1, 10]));
+console.log(sumLargestNumbers([1, 2, 3]));
 console.log(sumLargestNumbers([10, 4, 34, 6, 92, 2]));
 console.log(sumLargestNumbersUsingSort([10, 4, 34, 6, 92, 2]));
 console.log(sumLargestNumbersLoopOnly([10, 4, 34, 6, 92, 2]));
